@@ -1,39 +1,43 @@
 # Virtual-Train-Route-Planner
-This project uses the Doubly Linked List data structure to create a menu-driven simulation of a Train route planner. Users can construct a virtual railroad track, move between stations, and see the trip in real time.  
+**Project Description**
 
-This is a simple Python script that simulates a train route planner. It makes use of two basic data structures, a doubly linked list for linear routes and a circular linked list for looping routes. It has been done in such a way to present a clear example of how data structures can be leveraged to solve a real world navigational problem.
+This project uses Doubly Linked List and Circular Linked List data structures to create a menu-driven simulation of a Virtual Train Route Planner. Users can build a virtual railway route, navigate between stations, and observe real-time movement across the train network.
 
+This is a Python-based application that demonstrates how fundamental data structures can model real-world transportation systems. A doubly linked list is used for linear train routes where movement is possible in both directions, while a circular linked list represents loop routes such as metro or ring railway lines. The project provides a practical example of solving navigation and route-management problems using data structures.
 
 **Features**
-Linear Route: A doubly linked list is used to create a linear path of train stations with a direction.
 
+Linear Route:
+A doubly linked list creates a structured railway path where stations are connected sequentially.
 
-Loop Route: A circular linked list is used to create a looping train station path which connects the final station back to the first station.
+Loop Route:
+A circular linked list connects the last station back to the first, simulating continuous metro or circular train routes.
 
+Bidirectional Navigation:
+Users can move forward and backward between stations, similar to real train travel.
 
-Bidirectional Navigation: In linear route described by a doubly linked list, the user may navigate forwards and backwards. 
+Real-Time Current Station Tracking:
+The system continuously tracks and displays the train’s current position.
 
+Dynamic Station Management:
+Stations can be added dynamically without predefined limits.
 
-Route Printed Clearly: Printed functions are included to clearly print out the order of stations for both types of routes.
-
+Clear Route Visualization:
+The full train route is displayed in an easy-to-read format.
 
 **How To Run**
-Save it: Save the provided Python code to a file train_planner.py.
 
+1. Save the File
+Save the Python program as:
 
-Run from the terminal: Open your terminal or command prompt and navigate to the directory you saved the files.
+train_route_planner.py
 
+2. Open Terminal / Command Prompt
+Navigate to the folder where the file is saved.
 
-Run the script: To run the script, execute the following command using the Python interpreter:
+3. Run the Script
 
-
-python train_planner.py
-
-
-** Example Output**
-When you run the script, you'll see a clear separation of the two different routes and their station order, similar to the output below:
-Main Route:
-Central Station -> Northwood -> Riverbend -> Oakville
+python train_route_planner.pyrthwood -> Riverbend -> Oakville
 
 Loop Route:
 Park Loop -> Lake Loop -> Forest Loop -> (Loop)
